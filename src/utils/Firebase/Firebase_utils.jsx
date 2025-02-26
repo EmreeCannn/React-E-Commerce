@@ -11,17 +11,9 @@ import { getFirestore,doc, getDoc ,setDoc,collection, writeBatch ,query ,getDocs
 
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyCef-RVUnW3Vl6b09NfJ2eXO0LkMRTXQBw",
-    authDomain: "e-commerce-db-dbdcd.firebaseapp.com",
-    projectId: "e-commerce-db-dbdcd",
-    storageBucket: "e-commerce-db-dbdcd.appspot.com",
-    messagingSenderId: "47992251910",
-    appId: "1:47992251910:web:08f19fb38714cfd2bfc587"
-  };
-  
+
   // Initialize Firebase
- initializeApp(firebaseConfig);
+
   
   const provider = new GoogleAuthProvider();
 //   google ile doğrulama yapabilmek için   provider initialize yapmamız gerek
