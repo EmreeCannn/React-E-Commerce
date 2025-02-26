@@ -1,0 +1,33 @@
+.navigation {
+    margin: 0 2.25rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .link-container{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      column-gap:100px;
+      margin: 1.5rem 0;
+    }
+
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+    }
+  
+    .nav-links-container {
+      display: flex;
+      
+  
+      .nav-link {
+        padding: 10px 15px;
+        cursor: pointer;
+        color: black;
+      }
+    }
+  }
+  

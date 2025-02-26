@@ -1,0 +1,25 @@
+.buttons-div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.google-sign-in-btn{
+    margin-left: 10px;
+    
+    
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: rgb(132, 160, 205);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+}
